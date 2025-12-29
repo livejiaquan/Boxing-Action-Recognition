@@ -1,0 +1,82 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Model files (large files - user should download separately)
+models/yolo11n-pose.pt
+*.pt
+!models/.gitkeep
+
+# Training data images (too large for git)
+data/classified/
+data/raw/
+*.jpg
+*.jpeg
+*.png
+!docs/images/*.png
+!docs/images/*.jpg
+
+# Backup files
+*.bak
+backup_v1/
+other/
+
+# Logs
+*.log
+logs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.local
+
+# Test outputs
+test_output/
+experiments/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Personal documents (not for public)
+docs/期末報告技術文檔.md

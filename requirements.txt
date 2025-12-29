@@ -1,0 +1,20 @@
+# Boxing Action Recognition System
+# Requires Python 3.10+
+
+# Deep Learning & Computer Vision
+ultralytics>=8.3.0          # YOLO pose estimation
+opencv-python>=4.8.0        # Video capture & display
+torch>=2.0.0                # PyTorch backend
+torchvision>=0.15.0         # Vision utilities
+
+# ONNX Runtime (optional, for compressed model)
+onnxruntime>=1.16.0
+
+# Machine Learning
+numpy>=1.23.0
+scikit-learn>=1.3.0         # Random Forest classifier
+joblib>=1.3.0               # Model serialization
+
+# Visualization & Display
+matplotlib>=3.7.0           # Plots
+pillow>=10.0.0              # Chinese text rendering
