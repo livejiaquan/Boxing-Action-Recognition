@@ -7,7 +7,7 @@
 Real-time boxing action recognition system using **YOLO11-pose** for pose estimation and **Random Forest** for action classification. Supports multi-person detection, automatic target selection, and optional robot integration via TCP socket.
 
 <p align="center">
-  <img src="docs/images/demo.gif" alt="Demo" width="600">
+  <img src="docs/images/confusion_matrix.png" alt="Training confusion matrix" width="600">
 </p>
 
 ## ✨ Features
@@ -18,6 +18,14 @@ Real-time boxing action recognition system using **YOLO11-pose** for pose estima
 - **Frame Confirmation**: Reduces false positives with consecutive frame validation
 - **Robot Integration**: TCP socket interface for robot control (optional)
 - **Auto-reconnect**: Automatic reconnection for robot communication
+
+## 📊 Results
+
+| Area | Documented outcome |
+|------|--------------------|
+| Action coverage | 11 supported boxing actions |
+| Feature representation | 46-dimensional pose feature vector |
+| Runtime | 25-30 FPS on modern hardware |
 
 ## 🎯 Supported Actions
 
@@ -75,8 +83,8 @@ Real-time boxing action recognition system using **YOLO11-pose** for pose estima
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/boxing-action-recognition.git
-cd boxing-action-recognition
+git clone https://github.com/livejiaquan/Boxing-Action-Recognition.git
+cd Boxing-Action-Recognition
 
 # Create virtual environment (recommended: conda)
 conda create -n boxing python=3.10 -y
